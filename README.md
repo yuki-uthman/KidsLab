@@ -1,1 +1,8 @@
-# Class Materials for KidsLab
+# Class 1
+
+## Toto Commands
+
+- move
+- right
+- left
+
