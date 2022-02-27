@@ -26,7 +26,7 @@ if(element.getAttribute("width") == undefined || element.getAttribute("height") 
 
 window.toto = new Toto(element, options);
 
-toto.setImage("./toto/turtle.png")
+toto.setImage("./toto/icon.png")
 toto.setSize(70)
 
 var styleTag = document.createElement("style");
