@@ -1,5 +1,5 @@
 
-let RealTurtle = window.RealTurtle.default;
+let Toto = window.Toto.default;
 
 let options = {
   verbose: false,
@@ -10,11 +10,11 @@ let options = {
 };
 
 
-var element = document.getElementById("real-turtle");
+var element = document.getElementById("toto");
 
 if(element == undefined){
   element = document.createElement("canvas")
-  element.id = "real-turtle"
+  element.id = "toto"
   document.body.append(element)
   console.warn("Turtle helper could not find an existing canvas element. Created a custom one", element)
 }
@@ -24,10 +24,10 @@ if(element.getAttribute("width") == undefined || element.getAttribute("height") 
   element.height = window.innerHeight;
 }
 
-window.turtle = new RealTurtle(element, options);
+window.toto = new Toto(element, options);
 
-turtle.setImage("./turtle/icon.png")
-turtle.setSize(50)
+toto.setImage("./toto/turtle.png")
+toto.setSize(70)
 
 var styleTag = document.createElement("style");
 styleTag.type = "text/css"
@@ -37,7 +37,7 @@ styleTag.innerHTML = `
     padding: 0;
   }
 
-  #real-turtle, #real-turtle canvas{
+  #toto, #toto canvas{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -46,3 +46,5 @@ styleTag.innerHTML = `
 `;
 
 document.body.append(styleTag)
+
+console.log(toto)
