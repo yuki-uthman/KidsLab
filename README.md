@@ -2,10 +2,10 @@
 
 ## Objective
 
-![square](images/objective.gif)
+![objective](images/objective.gif)
 
 
-## Toto Commands
+## List of commands
 
 - move
 - right
