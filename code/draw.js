@@ -3,5 +3,4 @@
 // eg.
 // toto.move(100)
 
-// try to draw a square
-
+// start drawing!
