@@ -1,5 +1,12 @@
-# Class Materials for KidsLab
+# Project 2
 
-## Fiber optics
-- [total internal reflection](https://youtu.be/Lic3gCS_bKo)
-- [submarine map](https://www.submarinecablemap.com/)
+## Objective
+
+![objective](images/objective.gif)
+
+
+## List of commands
+
+- move
+- right
+- left
