@@ -2,7 +2,7 @@
 
 ## Objective
 
-![objective](images/objective.gif)
+![objective](images/objective.mp4)
 
 
 ## List of commands
